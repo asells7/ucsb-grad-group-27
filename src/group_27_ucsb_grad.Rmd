@@ -24,7 +24,8 @@ ggplot(data= ucsb_grad, aes(x=year_abbr, y=domestic_enrollment))+
   geom_col(aes(fill=ethnicity), position = "fill" ) +
   labs(x="Year", 
        y=" Proportion of Domestic Graduate Student Enrollment",
-       title="Proportion of ethnicities in domestic graduate student enrollment per year")
+       title="Proportion of ethnicities in domestic graduate student enrollment per year")+
+  theme_minimal()
 
 
 ```

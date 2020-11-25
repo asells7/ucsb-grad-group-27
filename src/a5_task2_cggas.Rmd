@@ -1,6 +1,6 @@
 ---
 title: "Group 27 UCSB domestic grad enrollment"
-author: "Carmen Galaz-Garcia and Alison Sells"
+author: "Carmen Galaz-García and Alison Sells"
 date: "11/25/2020"
 output: html_document
 ---
@@ -17,4 +17,3 @@ library(here)
 ```{r}
 ucsb_grad<- read.csv(here("data","ucsb_grad_data.csv"))
 ```
-

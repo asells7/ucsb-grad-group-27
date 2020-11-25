@@ -1,0 +1,20 @@
+---
+title: "Group 27 UCSB domestic grad enrollment"
+author: "Carmen Galaz-Garcia and Alison Sells"
+date: "11/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+
+```
+
+# Read in the Data
+
+```{r}
+ucsb_grad<- read.csv(here("data","ucsb_grad_data.csv"))
+```
+

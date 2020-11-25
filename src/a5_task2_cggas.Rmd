@@ -17,15 +17,12 @@ library(here)
 ```{r}
 ucsb_grad<- read.csv(here("data","ucsb_grad_data.csv"))
 ```
-<<<<<<< HEAD
 
- 
+# Insert Graph
 ```{r}
 ggplot(data= ucsb_grad, aes(x=year_abbr, y=domestic_enrollment))+
-  geom_col(aes(fill=ethnicity))
+  geom_col(aes(fill=ethnicity), position = "fill" ) +
+  labs(x="Year", y=" % Domestic Graduate Student Enrollment" )
 
 ```
 
-
-=======
->>>>>>> a7be6fe66062eac627e522c2bdeaa8ff2f6aa585
